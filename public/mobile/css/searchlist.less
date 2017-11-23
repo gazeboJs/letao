@@ -1,0 +1,106 @@
+header{
+	z-index: 2;
+}
+
+.lt_view{
+	padding: 10px 0;
+	background-color: #FFFFFF;
+	height: 100%;
+	position: relative;
+	#refreshContainer{
+		background-color: #FFFFFF;
+	}
+	.search_form{
+		padding: 10px 10px 0;
+		form{
+			height: 30px;
+			font-size: 0;
+			.searchTxt{
+				float: left;
+				width: 80%;
+				padding: 0;
+				margin: 0;
+				height: 100%;
+				font-size: 14px;
+				text-indent: 10px;
+				border-right: none;
+				border: 1px solid #ffa500;
+				border-top-right-radius: 0;
+				border-bottom-right-radius: 0;
+			}
+			.searchBtn{
+				border: none;
+				float: left;
+				width: 20%;
+				background-color: #ffa500;
+				height: 100%;
+				padding: 0;
+				margin: 0;
+				border-radius: initial;
+				color: #FFFFFF;
+				border-top-right-radius: 3px;
+				border-bottom-right-radius: 3px;
+				
+			}
+		}
+	}
+	//工具栏
+	.lt_sort_bar{
+		background-color: #efeff4;
+		color: #666666;
+		font-size: 12px;
+		margin: 10px 0;
+		a{
+			float: left;
+			width: 25%;
+			text-align: center;
+			color: inherit;
+			padding: 5px 0;
+			.mui-icon{
+				font-size: 12px;
+			}
+		}
+		.active{
+			color: orange;
+		}
+	}
+	
+	//商品列表
+	.lt_product_list{
+	.product_item{
+		width: 50%;
+		float: left;
+		text-align: center;
+		padding: 5px;
+		.product_in_item{
+			border: 1px solid #CCCCCC;
+			padding-bottom: 10px;
+			img{
+				display: block;
+				width: 100%;
+			}
+			p.pro_info{
+				padding: 0 10px;
+				height: 40px;
+				overflow: hidden;
+				text-align: left;
+			}
+			p.pro_price{
+				font-size: 12px;
+				.new_price{
+					color: red;
+				}
+				.old_price{
+					color: #888888;
+					text-decoration: line-through;
+				}
+			}
+			.pro_link{
+				background-color: #ffa500;
+				border: 1px solid #ffa500;
+			}
+		}
+	}
+}
+	
+}

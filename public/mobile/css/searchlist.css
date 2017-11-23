@@ -1,0 +1,99 @@
+header {
+  z-index: 2;
+}
+.lt_view {
+  padding: 10px 0;
+  background-color: #FFFFFF;
+  height: 100%;
+  position: relative;
+}
+.lt_view #refreshContainer {
+  background-color: #FFFFFF;
+}
+.lt_view .search_form {
+  padding: 10px 10px 0;
+}
+.lt_view .search_form form {
+  height: 30px;
+  font-size: 0;
+}
+.lt_view .search_form form .searchTxt {
+  float: left;
+  width: 80%;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-size: 14px;
+  text-indent: 10px;
+  border-right: none;
+  border: 1px solid #ffa500;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.lt_view .search_form form .searchBtn {
+  border: none;
+  float: left;
+  width: 20%;
+  background-color: #ffa500;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  border-radius: initial;
+  color: #FFFFFF;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.lt_view .lt_sort_bar {
+  background-color: #efeff4;
+  color: #666666;
+  font-size: 12px;
+  margin: 10px 0;
+}
+.lt_view .lt_sort_bar a {
+  float: left;
+  width: 25%;
+  text-align: center;
+  color: inherit;
+  padding: 5px 0;
+}
+.lt_view .lt_sort_bar a .mui-icon {
+  font-size: 12px;
+}
+.lt_view .lt_sort_bar .active {
+  color: orange;
+}
+.lt_view .lt_product_list .product_item {
+  width: 50%;
+  float: left;
+  text-align: center;
+  padding: 5px;
+}
+.lt_view .lt_product_list .product_item .product_in_item {
+  border: 1px solid #CCCCCC;
+  padding-bottom: 10px;
+}
+.lt_view .lt_product_list .product_item .product_in_item img {
+  display: block;
+  width: 100%;
+}
+.lt_view .lt_product_list .product_item .product_in_item p.pro_info {
+  padding: 0 10px;
+  height: 40px;
+  overflow: hidden;
+  text-align: left;
+}
+.lt_view .lt_product_list .product_item .product_in_item p.pro_price {
+  font-size: 12px;
+}
+.lt_view .lt_product_list .product_item .product_in_item p.pro_price .new_price {
+  color: red;
+}
+.lt_view .lt_product_list .product_item .product_in_item p.pro_price .old_price {
+  color: #888888;
+  text-decoration: line-through;
+}
+.lt_view .lt_product_list .product_item .product_in_item .pro_link {
+  background-color: #ffa500;
+  border: 1px solid #ffa500;
+}
+/*# sourceMappingURL=searchlist.css.map */

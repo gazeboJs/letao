@@ -1,0 +1,55 @@
+.lt_view {
+  position: relative;
+  height: 100%;
+  background-color: #FFFFFF;
+}
+.lt_carousel .mui-slider-indicator {
+  bottom: 25px;
+}
+.lt_product_nav {
+  padding: 5px 10px;
+}
+.lt_product_nav a {
+  float: left;
+  width: 33.33%;
+  display: block;
+}
+.lt_product_nav a img {
+  display: block;
+  width: 100%;
+}
+.lt_product_list .product_item {
+  width: 50%;
+  float: left;
+  text-align: center;
+  padding: 5px;
+}
+.lt_product_list .product_item .product_in_item {
+  border: 1px solid #CCCCCC;
+  padding-bottom: 10px;
+}
+.lt_product_list .product_item .product_in_item img {
+  display: block;
+  width: 100%;
+}
+.lt_product_list .product_item .product_in_item p.pro_info {
+  padding: 0 10px;
+  height: 40px;
+  overflow: hidden;
+  text-align: left;
+}
+.lt_product_list .product_item .product_in_item p.pro_price {
+  font-size: 12px;
+}
+.lt_product_list .product_item .product_in_item p.pro_price .new_price {
+  color: red;
+}
+.lt_product_list .product_item .product_in_item p.pro_price .old_price {
+  color: #888888;
+  text-decoration: line-through;
+}
+.lt_product_list .product_item .product_in_item .pro_link {
+  background-color: #ffa500;
+  border: 1px solid #ffa500;
+}
+/*# sourceMappingURL=index.css.map */
